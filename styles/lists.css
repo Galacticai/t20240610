@@ -1,0 +1,9 @@
+#lists {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#lists .selected {
+  font-weight: bold;
+}

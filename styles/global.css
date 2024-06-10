@@ -1,0 +1,23 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+
+  gap: 8px;
+}
+
+body > header > input {
+  flex: 1;
+}
+
+body > header > .controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
