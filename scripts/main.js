@@ -21,7 +21,7 @@ const elements = {
     button_addGeneral: $("#button_AddGeneral"),
   },
   filterBox: {
-    search: $("#button_Search"),
+    searchButton: $("#button_Search"),
     deleteButton: $("#button_Delete"),
     search: $("#input_search"),
   },
