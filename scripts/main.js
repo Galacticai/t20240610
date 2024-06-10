@@ -126,4 +126,5 @@ elements.addBox.button_addGeneral.on("click", () => addItem_auto(true));
 elements.addBox.button_addSpecific.on("click", () => addItem_auto());
 
 elements.filterBox.search.on("input", () => updateSelected());
+elements.filterBox.searchButton.on("click", () => updateSelected());
 elements.filterBox.deleteButton.on("click", () => del());
